@@ -1,18 +1,4 @@
-/* ----------------------------------------------------------------------------
-  ex5.C
-  mbwall 10dec94
-  Copyright 1995-1996  Massachusetts Institute of Technology
 
- DESCRIPTION:
-   Example program for a composite genome derived from the GAGenome and
-containing a 2DBinStr genome and a Bin2Dec genome.  This program uses
-a steady-state GA to match a 2D pattern in the 2DBinStr part of the genome
-and a sequence of numbers in the Bin2Dec part.
-   In this example we derive a new genome and a new crossover object to be
-used with it.  All of the operators (initialization, mutation, crossover, 
-comparison, and objective) are defined as member functions but are also
-override-able on any instance of the new genome.
----------------------------------------------------------------------------- */
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
